@@ -187,6 +187,8 @@ changeLoading(true);
 | closeFunc      | `() => Promise<boolean>` | -       | -      | 自定义关闭函数，返回`true`关闭，否则不关闭                     |
 | showFooter     | `boolean`            | -       | -      | 是否显示底部                         |
 | footerHeight   | `number`             | `60`    | -      | 底部区域高度                         |
+| cancelText     | `string`             | `取消`    | -      | 取消按钮文字                         |
+| okText         | `string`             | `确认`    | -      | 确认按钮文字                         |
 
 ## Events
 
